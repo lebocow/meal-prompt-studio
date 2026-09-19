@@ -1,0 +1,13 @@
+{
+  "name": "meal-prompt-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline, single-file meal-plan prompt builder. No runtime dependencies or API.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
