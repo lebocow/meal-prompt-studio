@@ -2,6 +2,18 @@
 
 Data: 19 septembrie 2026.
 
+## Verificare la publicare pe GitHub Pages
+
+- Repository: https://github.com/lebocow/meal-prompt-studio
+- Aplicație: https://lebocow.github.io/meal-prompt-studio/
+- GitHub a confirmat finalizarea cu succes a primei publicări, din `main`, rădăcina proiectului, cu HTTPS activat.
+- Cele 28 de teste Node au fost rulate din nou: 28/28 au trecut.
+- Fișierul `index.html` publicat este identic cu cel din arhiva inițială (SHA-256: `70ab9826ccd71da911e4ba8b0ac7d2a1b8e5cac31f628199ec65bf3dc1543b0e`).
+- Verificare efectuată în browser pe adresa HTTPS: pagina se deschide, un meniu de test generează promptul, butoanele de copiere și descărcare devin active, iar editarea meniului dezactivează copierea promptului vechi.
+- Această verificare nu a inclus copierea efectivă în clipboard, descărcarea unui fișier sau verificarea persistenței după repornirea browserului.
+
+Secțiunile de mai jos păstrează raportul arhivei inițiale, anterior publicării. Cele 23 de teste Playwright descrise acolo nu au fost rulate din nou la publicare.
+
 ## Verificări executate
 
 **28/28 teste unitare Node au trecut.** Testele extrag scriptul `prompt-core` direct din `index.html`. Au fost verificate: calculul țintelor de carbohidrați, separatoare zecimale, câmpuri goale versus zero, subtotaluri parțiale, prioritatea noilor ținte, cerințe fixe, validări numerice, produse/etichete, unități, escaping, import/export, formatul de ieșire, reguli de ulei și porționare, lipsa dependențelor externe și determinismul generatorului.
